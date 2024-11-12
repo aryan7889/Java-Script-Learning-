@@ -54,3 +54,58 @@ DATATYPE of all the non primitive one is always called
 function but for function it is named as object function.
 
 */
+
+// ////////////////////////////////////////////////////
+
+// Stack(Primitive), Heap (Non Prinitive)
+
+/*There are two types of memory stack is used for 
+primitive and heap memory is used for non primitive 
+
+> WHENEVER WE USE STACK MEMORY WE ALWAYS RECIEVE COPY OF THE VARIABLE 
+WE HAVE DECLARED.
+
+
+*/
+
+// EXAMPLE OF STACK
+let myytname = "Hitesh Chaudhary"
+let anothername = myytname
+anothername = "chai nd code"
+console.log(myytname);
+console.log(anothername);
+
+
+let userone = {
+     email: "user@gmail.com" ,
+     upi: "user@ybl"
+}
+/*SINCE IT IS OBJECT IT WILL BE GOING INTO HEAP MEMORY 
+> AND WE KNOW THAT IN HEAP MEMORY WE DONT RECIEVE 
+   COPY OF THE TEXT WE GET THE REFRENCE OF THE 
+   ORIGINAL TEXT.
+
+>IF ANY OF THE PRIVITIVE DATATYPES ARE THERE THEN THERE
+MEMORY WOULD BE STACK MEMORY AND WE WILL RECEIVE THE 
+COPY OF THE TEXT.
+
+
+*/
+
+
+// EXAMPLE OF HEAP
+let usertwo = userone 
+usertwo.email =  "usertwo@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+/*
+and ab hume user two me user one se refrence mile ga.
+*/
+/*
+>NOW WE GET TO KNOW THAT IN HEAP WE ALWAYS GET 
+THE REFRENCE OF THE PREVIOUS VARIABLE THAT WE 
+HAVE DECLARED.
+*/
