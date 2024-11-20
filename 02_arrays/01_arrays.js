@@ -29,7 +29,9 @@ myArr.shift()       /*help us to remove the value that we have pushed
                       in the array or the zeroth value in the original array
                        with the help of unshift function*/
 
-console.log(myArr.includes(9));/*
+console.log(myArr.includes(9));/*here we are trying to ask a question 
+from java script and it will tell us by giving the boolean value
+terms of true and false.
                                 
 
 */
@@ -56,12 +58,20 @@ console.log(newArr);
 
 console.log("A", myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3)/*Give us the value from 2nd value of the 
+                               array to the value just before the mentioned 
+                               value here it is till the 4 position but it will 
+                               give till the third value*/
 console.log(myn1);
 
 console.log("B", myArr);
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3)/*Give us the value from the array
+                                by removing the constraint position mentioned
+                                in the function like here we can see that it is 
+                                mentioned from 2nd value of the array give till the 
+                                fourth position of the array unlike the slice where it only
+                                give back (n-1) position*/
 console.log("c", myn2);
 
 
