@@ -35,14 +35,3 @@ const newString = gamename.substring(0, 4);
 console.log(newString);
 
 // have to read documentation on mdn
-
-
-
-
-
-
-
-
-
-
-
